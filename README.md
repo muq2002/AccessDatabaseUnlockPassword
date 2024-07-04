@@ -18,31 +18,6 @@ This repository contains a Python script to extract data from an Access database
    ```sh
    pip install pyodbc pandas
 
-
-Here's a README.md file that provides instructions on how to get data from an Access database without a password using a Python script. This guide includes setup instructions, the Python script, and usage examples.
-
-markdown
-Copy code
-# Access Database Data Extraction
-
-This repository contains a Python script to extract data from an Access database without a password. The script connects to the database, retrieves table names, and allows exporting data to an Excel file.
-
-## Requirements
-
-- Python 3.x
-- pyodbc
-- pandas
-
-## Installation
-
-1. **Clone the Repository:**
-   ```sh
-   git clone https://github.com/your-username/access-db-extraction.git
-   cd access-db-extraction
-Install Dependencies:
-```sh
-pip install pyodbc pandas
-
 ## Notes
 - Ensure the path to the Access database file (your_database.mde) is correct.
 - Adjust the table name and output path as needed.
