@@ -16,7 +16,7 @@ def get_column_info(cursor, table_name):
     return columns
 
 # Specify the table name you want to retrieve columns for
-table_name = 'master'
+table_name = 'custtypeind'
 columns = get_column_info(cursor, table_name)
 
 print(f"Columns for table '{table_name}':")
